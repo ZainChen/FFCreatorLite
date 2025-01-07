@@ -1,6 +1,6 @@
 {
-  "name": "ffcreatorlite",
-  "version": "2.5.1",
+  "name": "ffcreatorlite-zain",
+  "version": "2.5.4",
   "description": "FFCreatorLite is a lightweight and flexible short video production library",
   "main": "lib/index.js",
   "scripts": {
@@ -10,7 +10,10 @@
     "examples": "node ./examples/",
     "doc": "docsify serve ./docs"
   },
-  "repository": "https://github.com/tnfe/FFCreatorLite",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZainChen/FFCreatorLite.git"
+  },
   "homepage": "https://tnfe.github.io/FFCreator",
   "keywords": [
     "video",
